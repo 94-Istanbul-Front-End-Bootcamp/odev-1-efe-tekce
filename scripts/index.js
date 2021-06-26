@@ -1,3 +1,6 @@
+let adSoyad = "Efe Tekce";
+let yas = "27";
+
 const linkedinUrlDOM = document.getElementById("linkedinUrl");
 const githubUrlDOM = document.getElementById("githubUrl");
 const nameDOM = document.getElementById("nameSurname");
@@ -8,6 +11,6 @@ linkedinUrlDOM.setAttribute("href", "https://www.linkedin.com/in/efe-tekce/");
 githubUrlDOM.setAttribute("href", "https://github.com/efe-tekce");
 
 btnDOM.addEventListener("click", () => {
-  nameDOM.innerText = "Efe Tekce";
-  ageDOM.innerText = "27";
+  nameDOM.innerText = adSoyad;
+  ageDOM.innerText = yas;
 });
